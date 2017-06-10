@@ -2,7 +2,7 @@ from time import sleep as s
 import urllib.request as u
 import re
 print("\t -------------- Today's Weather Forecast in India --------------")
-flag = 1
+flag=1
 while flag == 1:
     url = "https://www.weathercity.com/in/"
     s(1)
