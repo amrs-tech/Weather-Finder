@@ -1,5 +1,28 @@
-# Weather
-Find the weather of major cities in India
+# Weather Finder
 
-Using the 'urllib.request' package, the source code of the website is read and stored in a variable.
-Then search for the temperature using 'search' function of 're' module.
+Python Script to get Weather Info for user input city. 
+
+## Getting Started
+
+Clone/Download the Repo and execute ```climate.py``` script
+
+### Prerequisites
+
+Python Version > 3.x
+
+Python Packages:
+
+* re
+* urllib
+
+## Contributing
+
+Please feel free to submit Pull request for bugs and enhancements. 
+
+## License
+
+This project is licensed under the MIT License 
+
+## Acknowledgments
+
+* [Weather City](https://www.weathercity.com/in/)
