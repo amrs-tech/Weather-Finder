@@ -7,6 +7,7 @@ while flag == 1:
     url = "https://www.weathercity.com/in/"
     s(1)
     name = input("\nEnter the City: ")
+    name=name.replace(" ","_")
     url = url + name #The url to be crawled
     try:
         data = u.urlopen(url).read()
